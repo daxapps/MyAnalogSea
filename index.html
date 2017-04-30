@@ -9,22 +9,22 @@
 	<link rel="stylesheet" href="index.css">
 </head>
 <body>
-	<main>
-		<img src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png" alt="Analog Sea Logo">
-		<form class='signup-form' action="/signup/" method ='post'>
-		<h1>Sign up</h1>
+	<img src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png" alt="Analog Sea Logo">
+	<form class='signup-form' action="/signup/" method ='post'>
+		<legend>Sign up</legend>
 		<fieldset name="signup-info">
 			<label for="email" required>Email</label>
-	      	<input type="email" name='email' id='email' required/>
+	      	<input type="email" name='email' id='email' placeholder="foo@bar.com" required/>
 
 	      	<label for="password" required>Password</label>
-	      	<input type="password" name='password' id='password' required/>
+	      	<input type="password" name='password' id='password' placeholder="1234passwOrd" required/>
 		</fieldset>
 		<button class="signup-btn">Sign up</button>
-		<a href="/forgot-password/new" class="forgot-pw-btn">Forgot password?</a>
-		</form>
-		<p>Already have an account?</p>
-		<a href="/login" class="login-btn">Log In</a>
-	</main>
+		<p><a href="/forgot-password/new" >Forgot password?</a></p>		
+	</form>
+	<div class="login-btn">
+		<p>Already have an account? <a href="/login" >Log In</a></p		
+	</div>
+	
 </body>
 </html>

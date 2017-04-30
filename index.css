@@ -1,0 +1,109 @@
+body * {
+  box-sizing: border-box;
+}
+
+body { 
+  	/*padding: 30px;*/
+  	font-family: 'Roboto', helvetica, sans-serif;
+  	background-color: #4496E4;
+  	padding: 0;
+    margin: 0;
+    padding-top: 60px;
+}
+
+img {
+	display: block;
+	height: 35px;
+	margin: auto;
+	margin-bottom: 25px;	
+}
+
+.signup-form {
+	background: white;
+	width: 400px;
+	margin: 0 auto;
+	padding: 40px;
+	border-radius: 3px;
+}
+
+.signup-form legend {
+	text-align: center;
+    font-weight: 300;
+    color: #565656;
+    margin: 0 auto 45px;
+    font-size: 35px;
+    line-height: 38px;
+    letter-spacing: 0;
+}
+
+.signup-form fieldset {
+	padding-left: 0;
+	border: 0;
+
+}
+
+.signup-form label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.signup-form input {
+	width: 320px;
+	padding: 15px;
+	border: 2px black solid;
+	margin-bottom: 15px;
+	border-radius: 3px;
+	font-size: 18px;
+}
+
+.signup-btn {
+	width: 320px;
+	padding: 15px;
+	border: 2px black solid;
+	background-color: #6DC478;
+	font-size: 22px;
+	color: white;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.signup-btn:hover {
+	background-color: green;
+}
+
+.signup-form p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.signup-form a {
+    color: black;
+}
+
+.login-btn {
+	text-align: center;
+    color: white;
+    margin: 20px auto;
+    font-weight: 600;
+    border: 0;
+    padding: 0;
+}
+
+.login-btn a {
+	color: white;
+    /*text-align: center;*/
+}
+
+.login-btn p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
