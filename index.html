@@ -1,4 +1,30 @@
-<h1>Hello!</h1>
-<h2> Testing</h2>
-<h3>Testing3</h3>
-<h4>Testing4</h4>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<title>AnalogSea</title>
+	<meta name="description" content="Sign up form for AnalogSea">
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<main>
+		<img src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png" alt="Analog Sea Logo">
+		<form class='signup-form' action="/signup/" method ='post'>
+		<h1>Sign up</h1>
+		<fieldset name="signup-info">
+			<label for="email" required>Email</label>
+	      	<input type="email" name='email' id='email' required/>
+
+	      	<label for="password" required>Password</label>
+	      	<input type="password" name='password' id='password' required/>
+		</fieldset>
+		<button class="signup-btn">Sign up</button>
+		<a href="/forgot-password/new" class="forgot-pw-btn">Forgot password?</a>
+		</form>
+		<p>Already have an account?</p>
+		<a href="/login" class="login-btn">Log In</a>
+	</main>
+</body>
+</html>
